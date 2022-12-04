@@ -6,7 +6,7 @@
 function getPrimes(number) {
     const initNumber = 1;
     const limitNumber = number;
-    let primes = [];
+    let primes = []; 
 
     for (let i = initNumber; i <= limitNumber; i++) {
         let flag = 0;
